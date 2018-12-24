@@ -55,3 +55,4 @@ E:\Projects\GitHub Repository\Gighub\Gighub\obj\Debug\Gighub.dll
 E:\Projects\GitHub Repository\Gighub\Gighub\obj\Debug\Gighub.pdb
 E:\Projects\GitHub Repository\Gighub\Gighub\obj\Debug\Gighub.Migrations.InitialModel.resources
 E:\Projects\GitHub Repository\Gighub\Gighub\obj\Debug\Gighub.csproj.GenerateResource.Cache
+E:\Projects\GitHub Repository\Gighub\Gighub\obj\Debug\Gighub.Migrations.CreateGigAndGenre.resources
