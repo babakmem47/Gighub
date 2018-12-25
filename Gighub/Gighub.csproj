@@ -178,6 +178,10 @@
     <Compile Include="Migrations\201812250852175_OverrideConventionsForGigAndGenre.Designer.cs">
       <DependentUpon>201812250852175_OverrideConventionsForGigAndGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812250909071_RemoveArtistIdFromGig.cs" />
+    <Compile Include="Migrations\201812250909071_RemoveArtistIdFromGig.Designer.cs">
+      <DependentUpon>201812250909071_RemoveArtistIdFromGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -265,6 +269,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812250852175_OverrideConventionsForGigAndGenre.resx">
       <DependentUpon>201812250852175_OverrideConventionsForGigAndGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812250909071_RemoveArtistIdFromGig.resx">
+      <DependentUpon>201812250909071_RemoveArtistIdFromGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

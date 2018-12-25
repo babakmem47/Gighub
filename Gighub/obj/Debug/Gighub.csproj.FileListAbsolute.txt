@@ -115,3 +115,4 @@ D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.csproj.GenerateResource.Cache
 D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.dll
 D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.pdb
 D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.OverrideConventionsForGigAndGenre.resources
+D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.RemoveArtistIdFromGig.resources

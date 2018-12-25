@@ -8,7 +8,7 @@ namespace Gighub.Models
 
         public ApplicationUser Artist { get; set; }
 
-        public int ArtistId { get; set; }
+        public string ApplicationUserId { get; set; }
 
         public DateTime DateTime { get; set; }
 

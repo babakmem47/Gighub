@@ -7,16 +7,17 @@ namespace Gighub.EntityConfigurations
     {
         public GigConfiguration()
         {
-            HasKey(g => g.Id);
 
-            Property(g => g.ArtistId)
-                .IsRequired();
+            HasKey(g => g.Id);
 
             Property(g => g.Venue)
                 .IsRequired()
                 .HasMaxLength(255);
 
             Property(g => g.GenreId)
+                .IsRequired();
+
+            Property(g => g.ApplicationUserId)
                 .IsRequired();
 
             /////// Relation /////////////
@@ -28,7 +29,6 @@ namespace Gighub.EntityConfigurations
 
             // Many-To-One With Artist
             // ???
-
 
         }
 
