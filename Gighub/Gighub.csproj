@@ -182,6 +182,34 @@
     <Compile Include="Migrations\201812250909071_RemoveArtistIdFromGig.Designer.cs">
       <DependentUpon>201812250909071_RemoveArtistIdFromGig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812251137383_CreateApplicationUserIdAndMakeItRequired.cs" />
+    <Compile Include="Migrations\201812251137383_CreateApplicationUserIdAndMakeItRequired.Designer.cs">
+      <DependentUpon>201812251137383_CreateApplicationUserIdAndMakeItRequired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812251208245_DisJoinGigGenre.cs" />
+    <Compile Include="Migrations\201812251208245_DisJoinGigGenre.Designer.cs">
+      <DependentUpon>201812251208245_DisJoinGigGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812251225291_CreateRelationshipBetweenGigAndGenreAgainWithOverrideConventions.cs" />
+    <Compile Include="Migrations\201812251225291_CreateRelationshipBetweenGigAndGenreAgainWithOverrideConventions.Designer.cs">
+      <DependentUpon>201812251225291_CreateRelationshipBetweenGigAndGenreAgainWithOverrideConventions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812251227448_MakeGenresPrimaryKeyIdentityTrueWithFluentApi.cs" />
+    <Compile Include="Migrations\201812251227448_MakeGenresPrimaryKeyIdentityTrueWithFluentApi.Designer.cs">
+      <DependentUpon>201812251227448_MakeGenresPrimaryKeyIdentityTrueWithFluentApi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812251245371_DisableIdentityForPrimaryKeyOfGenreAndGig.cs" />
+    <Compile Include="Migrations\201812251245371_DisableIdentityForPrimaryKeyOfGenreAndGig.Designer.cs">
+      <DependentUpon>201812251245371_DisableIdentityForPrimaryKeyOfGenreAndGig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812251249399_EnableIdentityForPrimaryKeyOfGenreAndGig.cs" />
+    <Compile Include="Migrations\201812251249399_EnableIdentityForPrimaryKeyOfGenreAndGig.Designer.cs">
+      <DependentUpon>201812251249399_EnableIdentityForPrimaryKeyOfGenreAndGig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812251253434_PopulateGenresTable.cs" />
+    <Compile Include="Migrations\201812251253434_PopulateGenresTable.Designer.cs">
+      <DependentUpon>201812251253434_PopulateGenresTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -272,6 +300,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812250909071_RemoveArtistIdFromGig.resx">
       <DependentUpon>201812250909071_RemoveArtistIdFromGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812251137383_CreateApplicationUserIdAndMakeItRequired.resx">
+      <DependentUpon>201812251137383_CreateApplicationUserIdAndMakeItRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812251208245_DisJoinGigGenre.resx">
+      <DependentUpon>201812251208245_DisJoinGigGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812251225291_CreateRelationshipBetweenGigAndGenreAgainWithOverrideConventions.resx">
+      <DependentUpon>201812251225291_CreateRelationshipBetweenGigAndGenreAgainWithOverrideConventions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812251227448_MakeGenresPrimaryKeyIdentityTrueWithFluentApi.resx">
+      <DependentUpon>201812251227448_MakeGenresPrimaryKeyIdentityTrueWithFluentApi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812251245371_DisableIdentityForPrimaryKeyOfGenreAndGig.resx">
+      <DependentUpon>201812251245371_DisableIdentityForPrimaryKeyOfGenreAndGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812251249399_EnableIdentityForPrimaryKeyOfGenreAndGig.resx">
+      <DependentUpon>201812251249399_EnableIdentityForPrimaryKeyOfGenreAndGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812251253434_PopulateGenresTable.resx">
+      <DependentUpon>201812251253434_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

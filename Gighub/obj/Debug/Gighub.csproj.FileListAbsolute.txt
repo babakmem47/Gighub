@@ -116,3 +116,10 @@ D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.dll
 D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.pdb
 D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.OverrideConventionsForGigAndGenre.resources
 D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.RemoveArtistIdFromGig.resources
+D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.CreateApplicationUserIdAndMakeItRequired.resources
+D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.DisJoinGigGenre.resources
+D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.CreateRelationshipBetweenGigAndGenreAgainWithOverrideConventions.resources
+D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.MakeGenresPrimaryKeyIdentityTrueWithFluentApi.resources
+D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.DisableIdentityForPrimaryKeyOfGenreAndGig.resources
+D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.EnableIdentityForPrimaryKeyOfGenreAndGig.resources
+D:\Projects\GigHub\Gighub\Gighub\obj\Debug\Gighub.Migrations.PopulateGenresTable.resources

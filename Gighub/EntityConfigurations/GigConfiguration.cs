@@ -1,4 +1,5 @@
 ﻿using Gighub.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
 namespace Gighub.EntityConfigurations
@@ -9,6 +10,9 @@ namespace Gighub.EntityConfigurations
         {
 
             HasKey(g => g.Id);
+
+            Property(g => g.Id)
+                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
             Property(g => g.Venue)
                 .IsRequired()
@@ -25,7 +29,6 @@ namespace Gighub.EntityConfigurations
             HasRequired(g => g.Genre)
                 .WithMany(gn => gn.Gigs)
                 .HasForeignKey(g => g.GenreId);
-
 
             // Many-To-One With Artist
             // ???

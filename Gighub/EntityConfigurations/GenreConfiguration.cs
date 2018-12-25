@@ -1,4 +1,5 @@
 ﻿using Gighub.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
 namespace Gighub.EntityConfigurations
@@ -9,9 +10,13 @@ namespace Gighub.EntityConfigurations
         {
             HasKey(gn => gn.Id);
 
+            Property(gn => gn.Id)
+                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+
+
             Property(gn => gn.Name)
                 .IsRequired()
-                .HasMaxLength(255);
+                .HasMaxLength(222);
 
             /////// Relation /////////////
             // One-To-Many with Gig
