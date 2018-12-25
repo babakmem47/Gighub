@@ -161,6 +161,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="EntityConfigurations\GenreConfiguration.cs" />
+    <Compile Include="EntityConfigurations\GigConfiguration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -171,6 +173,10 @@
     <Compile Include="Migrations\201812242005139_CreateGigAndGenre.cs" />
     <Compile Include="Migrations\201812242005139_CreateGigAndGenre.Designer.cs">
       <DependentUpon>201812242005139_CreateGigAndGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812250852175_OverrideConventionsForGigAndGenre.cs" />
+    <Compile Include="Migrations\201812250852175_OverrideConventionsForGigAndGenre.Designer.cs">
+      <DependentUpon>201812250852175_OverrideConventionsForGigAndGenre.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -256,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812242005139_CreateGigAndGenre.resx">
       <DependentUpon>201812242005139_CreateGigAndGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812250852175_OverrideConventionsForGigAndGenre.resx">
+      <DependentUpon>201812250852175_OverrideConventionsForGigAndGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
